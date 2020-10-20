@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- antisipasi jika web dibuka di negara yg tidak menggunakan huruf latin-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" /> <!-- digunakan untuk menggunakan css-->
+    <link rel="icon" href="icon.jpg" type="image/x-icon"> <!--digunakan untuk mengisi ikon mata pada title web-->
+    <title>Form Pendaftaran</title> <!--digunakan untuk mengisi title web-->
+</head>
+<body>
+    <div class="judul"> 
+        <h1 align="center">Halaman Pendaftaran</h1>
+        <p align="center">Pendaftaran Posko-UKT</p>
+    </div>
+    <div class="daftar">
+        <form action="" method="POST"> <!-- tempat penginputan data -->
+            <div id="nama">
+                <label for="namalengkap"></label> <!--pelengkap keterangan untuk objek dalam form-->
+                <input
+                type="text"
+                name="namalengkap"
+                class="namalengkap"
+                placeholder="Nama Lengkap"
+                /> <!-- untuk inputanm type untuk tipe inputan, name untuk nama label, class untuk css, 
+                    placeholder untuk keterangan dalam label-->
+                <label for="namapanggilan"></label> <!--pelengkap keterangan untuk objek dalam form-->
+                <input
+                type="text"
+                name="namapanggilan"
+                class="namapanggilan"
+                placeholder="Nama Panggilan"
+                /> <!-- untuk inputanm type untuk tipe inputan, name untuk nama label, class untuk css, 
+                    placeholder untuk keterangan dalam label-->
+                    <br> <br>
+            </div>
+                <label for="notelp"></label> <!--pelengkap keterangan untuk objek dalam form-->
+                <input type="text" name="notelp" class="notelp" placeholder="No. Telp"/> 
+                <!-- untuk inputanm type untuk tipe inputan, name untuk nama label, class untuk css, 
+                    placeholder untuk keterangan dalam label-->
+                <label for="email"></label> <!--pelengkap keterangan untuk objek dalam form-->
+                <input type="text" name="email" class="email" placeholder="Email" /> 
+                <!-- untuk inputanm type untuk tipe inputan, name untuk nama label, class untuk css, 
+                    placeholder untuk keterangan dalam label-->
+                    <br>
+                <label for="tglahir"></label><!--pelengkap keterangan untuk objek dalam form-->
+                <input type="number" name="tglahir" class="tglahir" placeholder="Tanggal Lahir" />
+                <!-- untuk inputanm type untuk tipe inputan, name untuk nama label, class untuk css, 
+                    placeholder untuk keterangan dalam label-->
+                <label for="tmplahir"></label> <!--pelengkap keterangan untuk objek dalam form-->
+                <input type="text" name="tmplahir" class="tglahir" placeholder="Tempat Lahir" />
+                <!-- untuk inputanm type untuk tipe inputan, name untuk nama label, class untuk css, 
+                    placeholder untuk keterangan dalam label-->
+                <label for="agama"></label> <!--pelengkap keterangan untuk objek dalam form-->
+                <select type="text" name="agama" id="agama"> <!-- digunakan untuk pilihan-->
+                    <option disabled="disabled" selected="selected">Agama</option>
+                    <option>Hindu</option>
+                    <option>Islam</option>
+                    <option>Budha</option>
+                    <option>Kristen</option>
+                    <option>Katolik</option>
+                    <option>Kong Hu Chu</option>
+                </select>
+                <br> <br>
+                <label for="univ"></label> <!--pelengkap keterangan untuk objek dalam form-->
+                <input type="text" name="univ" class="univ" placeholder="Universitas"/>
+                <!-- untuk inputanm type untuk tipe inputan, name untuk nama label, class untuk css, 
+                    placeholder untuk keterangan dalam label-->
+                <label for="fakultas"></label> <!--pelengkap keterangan untuk objek dalam form-->
+                <input type="text" name="fakultas" class="fakultas" placeholder="Fakultas" />
+                <!-- untuk inputanm type untuk tipe inputan, name untuk nama label, class untuk css, 
+                    placeholder untuk keterangan dalam label-->
+                <label for="jurusan"></label> <!--pelengkap keterangan untuk objek dalam form-->
+                <input type="text" name="jurusan" class="jurusan"  placeholder="Jurusan"/> <br><br>
+                <!-- untuk inputanm type untuk tipe inputan, name untuk nama label, class untuk css, 
+                    placeholder untuk keterangan dalam label-->
+                <label for="alamat"></label> <!--pelengkap keterangan untuk objek dalam form-->
+                <input type="text" name="alamat" class="alamat" placeholder="Alamat Asal"/>
+                <!-- untuk inputanm type untuk tipe inputan, name untuk nama label, class untuk css, 
+                    placeholder untuk keterangan dalam label-->
+                <br />
+                <br />
+                <label for="berkas">Berkas</label> <br> <!--pelengkap keterangan untuk objek dalam form-->
+                <input type="file" name="berkas" class="berkas" /> 
+                <!-- untuk inputan type untuk tipe inputan, name untuk nama label, class untuk css, 
+                    placeholder untuk keterangan dalam label-->
+                <br>
+                <small>Berkas dengan format PDF</small> <!-- mengisi keterangan dengan font kecil-->
+                <br><br>
+                <button value="submit">Daftar</button> <!-- untuk melakukan input dan lanjut ke step selanjutnya-->
+        </form>
+        
+        
+    </div>
+    
+    
+</body>
+</html>
