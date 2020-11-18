@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+body{
+    background-image: url(bg2.png);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.tombol{
+    background-color: #EEC6CE;
+    width: 50px;
+    height: 30px;
+    font-size: medium;
+}
+
+.table{
+    background-color: #E7D3DB;
+    height: 30px;
+}
+
+.bil{
+    width: 100px;
+    height: 30px;
+}
+
+.input{
+    width: 300px;
+    height: 30px;
+}

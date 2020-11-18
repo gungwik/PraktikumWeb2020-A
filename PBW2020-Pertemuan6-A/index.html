@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- antisipasi jika web dibuka di negara yg tidak menggunakan huruf latin-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title> <!--digunakan untuk mengisi title web-->
+    <link rel="stylesheet" href="style.css" class="style"> <!-- digunakan untuk menggunakan css-->
+</head>
+<body>
+    <!-- penggunaan javascript untuk proses pada kalkulator-->
+    <script type="text/javascript">
+    function tambah(){ 
+        var bil1=parseFloat(document.calculator.bil1.value); 
+        var bil2=parseFloat(document.calculator.bil2.value);
+        var hasil=bil1+bil2;
+        document.calculator.hasil.value=hasil;
+    }
+    function kurang(){
+        var bil1=parseFloat(document.calculator.bil1.value);
+        var bil2=parseFloat(document.calculator.bil2.value);
+        var hasil=bil1-bil2;
+        document.calculator.hasil.value=hasil;
+    }
+    function kali(){
+        var bil1=parseFloat(document.calculator.bil1.value);
+        var bil2=parseFloat(document.calculator.bil2.value);
+        var hasil=bil1*bil2;
+        document.calculator.hasil.value=hasil;
+    }
+    function bagi(){
+        var bil1=parseFloat(document.calculator.bil1.value);
+        var bil2=parseFloat(document.calculator.bil2.value);
+        var hasil=bil1/bil2;
+        document.calculator.hasil.value=hasil;
+    }
+
+    </script>
+    <div>
+    <form name="calculator" align="center">
+        <h1>Tugas Praktikum Pemrograman Berbasis Web</h1>
+        <hr /> <!-- digunakan untuk membuat garis-->
+        <br>
+        <table class="table" align="center"> <!-- membuat tabel-->
+            <caption>Calculator</caption> <!--judul tabel-->
+            <tr> <!--membuat baris untuk bilangan 1 dengan operasi tambah dan kali di sebelah kanan-->
+                <td><input placeholder="Bilangan 1" type="number" name="bil1" class="input"></td>
+                <td><input class="tombol" type="button" onclick="tambah()" value="+"></td>
+                <td><input class="tombol" type="button" onclick="kali()" value="*"></td>
+            </tr>
+            <tr><!--membuat baris untuk bilangan 2 dengan operasi kurang dan bagi di sebelah kanan-->
+                <td><input placeholder="Bilangan 2" type="number" name="bil2" class="input"></td>
+                <td><input class="tombol" type="button" onclick="kurang()" value="-"></td>
+                <td><input class="tombol" type="button" onclick="bagi()" value="/"></td>
+            </tr>
+            <td><input placeholder="Hasil" type="number" name="hasil" class="input"></td> <!-- tempat hasil operasi-->
+            
+        </table>
+    </form>
+    </div>
+</body>
+</html>
