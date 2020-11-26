@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+body{
+    background-color: #E8E2DB;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nim{
+    height: 20px;
+    font-size: small;
+}
+
+.nama{
+    height: 20px;
+    font-size: small;
+}
+
+.kelas{
+    height: 20px;
+    font-size: small;
+}
+
+.nilai1{
+    height: 20px;
+    font-size: small;
+}
+
+.nilai2{
+    height: 20px;
+    font-size: small;
+}
+
+.table1{
+    background-color: #E7D3DB;
+    height: 30px;
+}
+
+.table2{
+    background-color: #E7D3DB;
+    height: 30px;
+}
+
+.submit{
+    background-color: #E7D3DB;
+}
