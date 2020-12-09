@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+body{
+    background-color: #E8E2DB;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.login{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 15px;
+}

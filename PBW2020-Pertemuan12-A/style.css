@@ -1,0 +1,28 @@
+h5 {
+    text-align: center;
+}
+
+h7 {
+    margin-left: 12px;
+}
+
+.btn-primary {
+    width: 120px;
+    margin-left: 10px;
+}
+
+.btn-danger {
+    margin-left: 10px;
+}
+
+tr{
+    text-align: center;
+}
+
+.btn-secondary {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 120px;
+}
+
